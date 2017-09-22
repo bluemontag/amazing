@@ -1,16 +1,16 @@
-package hackerrank;
+package hackerrank.datastructures;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class RamsonNote {
+public class RamsonNoteHashTables {
 	Map<String, Integer> magazineMap;
 	Map<String, Integer> noteMap;
 
 	String magazine, note;
 
-	public RamsonNote(String magazine, String note) {
+	public RamsonNoteHashTables(String magazine, String note) {
 		this.magazineMap = new HashMap<String, Integer>();
 		this.noteMap = new HashMap<String, Integer>();
 
@@ -69,7 +69,7 @@ public class RamsonNote {
 		// Eat whitespace to beginning of next line
 		scanner.nextLine();
 
-		RamsonNote s = new RamsonNote(scanner.nextLine(), scanner.nextLine());
+		RamsonNoteHashTables s = new RamsonNoteHashTables(scanner.nextLine(), scanner.nextLine());
 		scanner.close();
 
 		boolean answer = s.solve(m, n);

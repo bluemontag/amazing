@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank.datastructures;
 import java.math.BigDecimal;
 import java.util.Scanner;
 

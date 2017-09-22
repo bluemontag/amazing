@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank.datastructures;
 
 public class IsThisABinarySearchTree {
 

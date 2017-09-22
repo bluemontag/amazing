@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank.algorithms;
 public class CountingInversionsWithMergeSort {
 
 	// EDITORIAL SOLUTION:
