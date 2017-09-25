@@ -10,7 +10,7 @@ import java.util.Scanner;
  * @author igallego
  *
  */
-public class DynamicProgrammingCoinChangeExponentialRecursive {
+public class DynamicProgrammingCoinChangeFailedAttempt {
 
 	static HashMap<RecursiveSolution, Long> solutions = new HashMap<RecursiveSolution, Long>();
 	
