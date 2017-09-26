@@ -9,6 +9,10 @@ import java.util.Scanner;
 /**
  * @author igallego
  *
+ * This attempt is correct, but it uses a RecursiveSolution class to store in a memo (in a hashmap).
+ *  Every time a RecursiveSolution is created, it takes coin.length time to initialize the instance.
+ *  Moreover, in every access to the hashmap, it takes coin.length again to compute the hashCode of the 
+ *  RecursiveSolution. This overhead makes this solution inappropriate.
  */
 public class DynamicProgrammingCoinChangeFailedAttempt {
 
